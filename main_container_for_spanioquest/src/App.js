@@ -56,11 +56,11 @@ function App() {
         <div className="progress-section" style={{ marginTop: '24px' }}>
           <h2 
             className="section-title"
-            data-tooltip-id="translation-tooltip" 
-            data-tooltip-content={getTranslation("Lecciones")}
+            title={getTranslation("Lecciones")}
           >
             Lecciones 🎓
           </h2>
+=======
           
           <div className="lessons-grid">
             {lessons.map((lesson) => (
@@ -82,10 +82,8 @@ function App() {
       />
       
       <CharacterMascot onClick={handleMascotClick} />
-      
-      {/* Global tooltip for translations */}
-      <Tooltip id="translation-tooltip" className="spanioquest-tooltip" />
     </div>
+=======
   );
 }
 
