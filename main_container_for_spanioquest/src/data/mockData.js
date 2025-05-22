@@ -19,8 +19,8 @@ export const userProgress = {
 export const lessons = [
   {
     id: "basic-1",
-    title: "Básico 1",
-    description: "Aprende saludos y frases básicas",
+    title: "Basic 1",
+    description: "Learn greetings and basic phrases",
     icon: "👋",
     completed: false,
     xp: 20,
@@ -28,48 +28,48 @@ export const lessons = [
   },
   {
     id: "basics-1",
-    title: "Básicos 1",
-    description: "Aprende palabras y frases sencillas",
+    title: "Basics 1",
+    description: "Learn simple words and phrases",
     icon: "🏠",
     completed: true,
     xp: 10
   },
   {
     id: "basics-2",
-    title: "Básicos 2",
-    description: "Continúa con palabras de uso común",
+    title: "Basics 2",
+    description: "Continue with commonly used words",
     icon: "🚪",
     completed: true,
     xp: 10
   },
   {
     id: "phrases",
-    title: "Frases",
-    description: "Aprende frases útiles para conversar",
+    title: "Phrases",
+    description: "Learn useful phrases for conversation",
     icon: "💬",
     completed: false,
     xp: 15
   },
   {
     id: "food",
-    title: "Comida",
-    description: "Vocabulario sobre comida y bebida",
+    title: "Food",
+    description: "Vocabulary about food and drink",
     icon: "🍎",
     completed: false,
     xp: 15
   },
   {
     id: "animals",
-    title: "Animales",
-    description: "Aprende los nombres de animales",
+    title: "Animals",
+    description: "Learn animal names",
     icon: "🐶",
     completed: false,
     xp: 15
   },
   {
     id: "colors",
-    title: "Colores",
-    description: "Nombres de colores y descripciones",
+    title: "Colors",
+    description: "Color names and descriptions",
     icon: "🎨",
     completed: false,
     xp: 15
@@ -80,22 +80,22 @@ export const lessons = [
 export const achievements = [
   {
     id: "streak-5",
-    title: "¡5 días seguidos!",
-    description: "Has aprendido por 5 días consecutivos",
+    title: "5 days in a row!",
+    description: "You've learned for 5 consecutive days",
     icon: "🔥",
     unlocked: true
   },
   {
     id: "first-perfect",
-    title: "¡Perfecto!",
-    description: "Primera lección con 100% de aciertos",
+    title: "Perfect!",
+    description: "First lesson with 100% correct answers",
     icon: "⭐",
     unlocked: true
   },
   {
     id: "vocabulary-50",
-    title: "Vocabulario Básico",
-    description: "Has aprendido 50 palabras nuevas",
+    title: "Basic Vocabulary",
+    description: "You've learned 50 new words",
     icon: "📚",
     unlocked: false
   },
