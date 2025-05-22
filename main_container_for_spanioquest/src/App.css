@@ -13,6 +13,10 @@
   --text-secondary: #777777;
   --border-radius: 16px;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  /* Tooltip Variables */
+  --tooltip-bg: rgba(0, 0, 0, 0.85);
+  --tooltip-text: #ffffff;
 }
 
 body {
