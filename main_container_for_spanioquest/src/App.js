@@ -81,6 +81,9 @@ function App() {
       />
       
       <CharacterMascot onClick={handleMascotClick} />
+      
+      {/* Global tooltip for translations */}
+      <Tooltip id="translation-tooltip" className="spanioquest-tooltip" />
     </div>
   );
 }
