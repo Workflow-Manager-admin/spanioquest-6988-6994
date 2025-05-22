@@ -13,6 +13,7 @@ import CharacterMascot from './components/CharacterMascot';
 // Import mock data and translation utils
 import { userProgress, lessons } from './data/mockData';
 import { getTranslation } from './utils/translationUtils';
+import TranslatableText from './components/TranslatableText';
 
 function App() {
   const [activeTab, setActiveTab] = useState('learn');
