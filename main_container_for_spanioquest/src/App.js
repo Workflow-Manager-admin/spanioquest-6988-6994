@@ -8,6 +8,7 @@ import LessonCard from './components/LessonCard';
 import Navigation from './components/Navigation';
 import CharacterMascot from './components/CharacterMascot';
 import TranslatableText from './components/TranslatableText';
+import CreateFamilyPrompt from './components/CreateFamilyPrompt';
 
 // Import mock data and translation utils
 import { userProgress, lessons } from './data/mockData';
