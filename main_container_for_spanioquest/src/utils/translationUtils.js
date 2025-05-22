@@ -13,6 +13,17 @@ export const translations = {
   "Logros": "Achievements",
   "Perfil": "Profile",
   
+  // Create Family section
+  "¡Aprende mejor en grupo!": "Learn better in a group!",
+  "Invita a tu familia o amigos para aprender juntos, competir en desafíos y subir en la clasificación.": "Invite your family or friends to learn together, compete in challenges, and climb the leaderboard.",
+  "Crea una Familia": "Create a Family",
+  "Invitar": "Invite",
+  "Correo electrónico para invitar": "Email to invite",
+  "Enviar invitación": "Send invitation",
+  "Compite en desafíos semanales": "Compete in weekly challenges",
+  "Aprende con tus seres queridos": "Learn with your loved ones",
+  "Sigue el progreso en grupo": "Track progress as a group",
+  
   // Button texts
   "¡Vamos!": "Let's go!",
   "Continuar": "Continue",
