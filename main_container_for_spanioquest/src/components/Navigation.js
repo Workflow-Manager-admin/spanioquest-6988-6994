@@ -25,8 +25,7 @@ const Navigation = ({ activeTab = 'learn', onTabChange }) => {
           <span className="nav-icon">{tab.icon}</span>
           <span 
             className="nav-label"
-            data-tooltip-id="translation-tooltip" 
-            data-tooltip-content={getTranslation(tab.label)}
+            title={getTranslation(tab.label)}
           >
             {tab.label}
           </span>
