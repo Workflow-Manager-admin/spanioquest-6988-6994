@@ -1,5 +1,7 @@
 // PUBLIC_INTERFACE
 import React from 'react';
+import { getSpanishText } from '../utils/translationUtils';
+import TranslatableText from './TranslatableText';
 
 /**
  * Header component for SpanioQuest displaying logo, mascot, and user info
@@ -15,7 +17,9 @@ const Header = ({ username = "Learner" }) => {
       <div className="user-info">
         <div className="streak-count">
           <span className="streak-icon">🔥</span>
-          <span>5 days</span>
+          <span>
+            5 <TranslatableText text="days" />
+          </span>
         </div>
         <div className="user-avatar">
           {username.charAt(0).toUpperCase()}
