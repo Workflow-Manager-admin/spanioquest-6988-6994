@@ -1,146 +1,172 @@
 /**
  * Translation utilities for SpanioQuest
- * Contains Spanish to English mappings and translation helper functions
+ * Contains English to Spanish mappings and translation helper functions
  */
 
 /**
- * Map of Spanish words/phrases to English translations
+ * Map of English words/phrases to Spanish translations
  */
 export const translations = {
   // Navigation tabs
-  "Aprender": "Learn",
-  "Practicar": "Practice", 
-  "Logros": "Achievements",
-  "Perfil": "Profile",
+  "Learn": "Aprender",
+  "Practice": "Practicar", 
+  "Achievements": "Logros",
+  "Profile": "Perfil",
   
   // Create Family section
-  "¡Aprende mejor en grupo!": "Learn better in a group!",
-  "Invita a tu familia o amigos para aprender juntos, competir en desafíos y subir en la clasificación.": "Invite your family or friends to learn together, compete in challenges, and climb the leaderboard.",
-  "Crea una Familia": "Create a Family",
-  "Invitar": "Invite",
-  "Correo electrónico para invitar": "Email to invite",
-  "Enviar invitación": "Send invitation",
-  "Compite en desafíos semanales": "Compete in weekly challenges",
-  "Aprende con tus seres queridos": "Learn with your loved ones",
-  "Sigue el progreso en grupo": "Track progress as a group",
+  "Learn better in a group!": "¡Aprende mejor en grupo!",
+  "Invite your family or friends to learn together, compete in challenges, and climb the leaderboard.": "Invita a tu familia o amigos para aprender juntos, competir en desafíos y subir en la clasificación.",
+  "Create a Family": "Crea una Familia",
+  "Invite": "Invitar",
+  "Email to invite": "Correo electrónico para invitar",
+  "Send invitation": "Enviar invitación",
+  "Compete in weekly challenges": "Compite en desafíos semanales",
+  "Learn with your loved ones": "Aprende con tus seres queridos",
+  "Track progress as a group": "Sigue el progreso en grupo",
   
   // Button texts
-  "¡Vamos!": "Let's go!",
-  "Continuar": "Continue",
+  "Let's go!": "¡Vamos!",
+  "Continue": "Continuar",
   
   // Section titles
-  "Lecciones": "Lessons",
-  "Tu Progreso": "Your Progress",
+  "Lessons": "Lecciones",
+  "Your Progress": "Tu Progreso",
   
   // Progress texts
-  "XP ganados": "XP earned",
-  "Meta diaria": "Daily goal",
-  "días": "days",
+  "XP earned": "XP ganados",
+  "Daily goal": "Meta diaria",
+  "days": "días",
   
   // Lesson titles
-  "Básico 1": "Basic 1",
-  "Básicos 1": "Basics 1",
-  "Básicos 2": "Basics 2",
-  "Frases": "Phrases",
-  "Comida": "Food",
-  "Animales": "Animals",
-  "Colores": "Colors",
+  "Basic 1": "Básico 1",
+  "Basics 1": "Básicos 1",
+  "Basics 2": "Básicos 2",
+  "Phrases": "Frases",
+  "Food": "Comida",
+  "Animals": "Animales",
+  "Colors": "Colores",
   
   // Basic 1 section titles
-  "Saludos": "Greetings",
-  "Presentaciones": "Introductions",
-  "Objetos Comunes": "Common Objects",
-  "Frases Útiles": "Useful Phrases",
+  "Greetings": "Saludos",
+  "Introductions": "Presentaciones",
+  "Common Objects": "Objetos Comunes",
+  "Useful Phrases": "Frases Útiles",
   
   // Basic 1 section descriptions
-  "Aprende saludos y frases básicas": "Learn greetings and basic phrases",
-  "Frases comunes para saludar": "Common greeting phrases",
-  "Cómo presentarse y preguntar nombres": "How to introduce yourself and ask names",
-  "Nombres de objetos cotidianos": "Names of everyday objects",
-  "Expresiones cotidianas": "Everyday expressions",
+  "Learn greetings and basic phrases": "Aprende saludos y frases básicas",
+  "Common greeting phrases": "Frases comunes para saludar",
+  "How to introduce yourself and ask names": "Cómo presentarse y preguntar nombres",
+  "Names of everyday objects": "Nombres de objetos cotidianos",
+  "Everyday expressions": "Expresiones cotidianas",
   
   // Lesson descriptions
-  "Aprende palabras y frases sencillas": "Learn simple words and phrases",
-  "Continúa con palabras de uso común": "Continue with commonly used words",
-  "Aprende frases útiles para conversar": "Learn useful phrases for conversation",
-  "Vocabulario sobre comida y bebida": "Vocabulary about food and drink",
-  "Aprende los nombres de animales": "Learn animal names",
-  "Nombres de colores y descripciones": "Color names and descriptions",
+  "Learn simple words and phrases": "Aprende palabras y frases sencillas",
+  "Continue with commonly used words": "Continúa con palabras de uso común",
+  "Learn useful phrases for conversation": "Aprende frases útiles para conversar",
+  "Vocabulary about food and drink": "Vocabulario sobre comida y bebida",
+  "Learn animal names": "Aprende los nombres de animales",
+  "Color names and descriptions": "Nombres de colores y descripciones",
   
   // Mascot alert
-  "¡Hola! ¿Listo para aprender Español hoy?": "Hello! Ready to learn Spanish today?",
+  "Hello! Ready to learn Spanish today?": "¡Hola! ¿Listo para aprender Español hoy?",
   
   // Achievements
-  "¡5 días seguidos!": "5 days in a row!",
-  "¡Perfecto!": "Perfect!",
-  "Vocabulario Básico": "Basic Vocabulary",
-  "Has aprendido por 5 días consecutivos": "You've learned for 5 consecutive days",
-  "Primera lección con 100% de aciertos": "First lesson with 100% correct answers",
-  "Has aprendido 50 palabras nuevas": "You've learned 50 new words",
+  "5 days in a row!": "¡5 días seguidos!",
+  "Perfect!": "¡Perfecto!",
+  "Basic Vocabulary": "Vocabulario Básico",
+  "You've learned for 5 consecutive days": "Has aprendido por 5 días consecutivos",
+  "First lesson with 100% correct answers": "Primera lección con 100% de aciertos",
+  "You've learned 50 new words": "Has aprendido 50 palabras nuevas",
   
   // Basic 1 - Greetings
-  "Hola": "Hello",
-  "Buenos días": "Good morning",
-  "Buenas tardes": "Good afternoon",
-  "Buenas noches": "Good evening/night",
-  "Adiós": "Goodbye",
-  "Hasta luego": "See you later",
+  "Hello": "Hola",
+  "Good morning": "Buenos días",
+  "Good afternoon": "Buenas tardes",
+  "Good evening/night": "Buenas noches",
+  "Goodbye": "Adiós",
+  "See you later": "Hasta luego",
   
   // Basic 1 - Introductions
-  "Me llamo...": "My name is...",
-  "¿Cómo te llamas?": "What is your name?",
-  "Mucho gusto": "Nice to meet you",
-  "¿Cómo estás?": "How are you?",
-  "Estoy bien, gracias": "I'm fine, thank you",
-  "¿De dónde eres?": "Where are you from?",
+  "My name is...": "Me llamo...",
+  "What is your name?": "¿Cómo te llamas?",
+  "Nice to meet you": "Mucho gusto",
+  "How are you?": "¿Cómo estás?",
+  "I'm fine, thank you": "Estoy bien, gracias",
+  "Where are you from?": "¿De dónde eres?",
   
   // Basic 1 - Common Objects
-  "el libro": "the book",
-  "la mesa": "the table",
-  "la silla": "the chair",
-  "el teléfono": "the phone",
-  "la puerta": "the door",
-  "la ventana": "the window",
-  "el reloj": "the clock/watch",
-  "la casa": "the house",
+  "the book": "el libro",
+  "the table": "la mesa",
+  "the chair": "la silla",
+  "the phone": "el teléfono",
+  "the door": "la puerta",
+  "the window": "la ventana",
+  "the clock/watch": "el reloj",
+  "the house": "la casa",
   
   // Basic 1 - Useful Phrases
-  "Por favor": "Please",
-  "Gracias": "Thank you",
-  "De nada": "You're welcome",
-  "Sí": "Yes",
+  "Please": "Por favor",
+  "Thank you": "Gracias",
+  "You're welcome": "De nada",
+  "Yes": "Sí",
   "No": "No",
-  "Disculpe": "Excuse me",
-  "Lo siento": "I'm sorry",
-  "¿Hablas inglés?": "Do you speak English?",
+  "Excuse me": "Disculpe",
+  "I'm sorry": "Lo siento",
+  "Do you speak English?": "¿Hablas inglés?",
   
   // Basic 1 - Exercise titles
-  "Relaciona las palabras": "Match the words",
-  "Completa la frase": "Complete the phrase",
-  "Une cada palabra en español con su traducción en inglés": "Match each Spanish word with its English translation",
-  "Escribe la palabra correcta para completar cada frase": "Write the correct word to complete each phrase",
+  "Match the words": "Relaciona las palabras",
+  "Complete the phrase": "Completa la frase",
+  "Match each Spanish word with its English translation": "Une cada palabra en español con su traducción en inglés",
+  "Write the correct word to complete each phrase": "Escribe la palabra correcta para completar cada frase",
   
   // UI Elements for Lesson Items
-  "Mostrar traducción": "Show translation"
+  "Show translation": "Mostrar traducción"
+};
+
+// Create a reverse mapping for backward compatibility
+const reverseTranslations = Object.entries(translations).reduce((map, [english, spanish]) => {
+  map[spanish] = english;
+  return map;
+}, {});
+
+/**
+ * Returns the Spanish translation for a given English text
+ * 
+ * @param {string} englishText - The English text to translate
+ * @returns {string} The Spanish translation or the original text if no translation found
+ */
+export const getSpanishText = (englishText) => {
+  return translations[englishText] || englishText;
 };
 
 /**
- * Returns the English translation for a given Spanish text
+ * Returns the English text for a given Spanish text (for backward compatibility)
+ * 
+ * @param {string} spanishText - The Spanish text to translate
+ * @returns {string} The English translation or the original text if no translation found
+ */
+export const getEnglishText = (spanishText) => {
+  return reverseTranslations[spanishText] || spanishText;
+};
+
+/**
+ * Legacy function for backwards compatibility - will be deprecated
  * 
  * @param {string} spanishText - The Spanish text to translate
  * @returns {string} The English translation or the original text if no translation found
  */
 export const getTranslation = (spanishText) => {
-  return translations[spanishText] || spanishText;
+  return getEnglishText(spanishText);
 };
 
 /**
- * Creates a data-tooltip attribute value for a given Spanish text
+ * Creates a tooltip text for a given English text
  * 
- * @param {string} spanishText - The Spanish text to create a tooltip for
- * @returns {string} The tooltip text or empty string if no translation found
+ * @param {string} englishText - The English text to create a tooltip for
+ * @returns {string} The Spanish tooltip text or empty string if no translation found
  */
-export const createTooltip = (spanishText) => {
-  const translation = translations[spanishText];
+export const createTooltip = (englishText) => {
+  const translation = translations[englishText];
   return translation ? translation : "";
 };
