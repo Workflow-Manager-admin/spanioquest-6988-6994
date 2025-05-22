@@ -23,7 +23,9 @@ function App() {
   };
   
   const handleMascotClick = () => {
-    alert('¡Hola! ¿Listo para aprender Español hoy?');
+    const spanishMessage = '¡Hola! ¿Listo para aprender Español hoy?';
+    const englishMessage = getTranslation(spanishMessage);
+    alert(`${spanishMessage}\n\n(${englishMessage})`);
   };
 
   return (
