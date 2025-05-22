@@ -5,14 +5,14 @@
 
 /**
  * Lesson content structured by categories
- * Each item includes Spanish text, English translation, and optional example usage
+ * Each item includes English text, Spanish translation, and optional example usage
  */
 export const basicOneLessonContent = {
   // Lesson metadata
   metadata: {
     id: "basic-1",
-    title: "Básico 1",
-    description: "Aprende saludos y frases básicas",
+    title: "Basic 1",
+    description: "Learn greetings and basic phrases",
     icon: "👋",
     expectedDuration: "15 min",
     difficulty: "beginner",
@@ -23,169 +23,169 @@ export const basicOneLessonContent = {
   sections: [
     {
       id: "greetings",
-      title: "Saludos",
-      description: "Frases comunes para saludar",
+      title: "Greetings",
+      description: "Common greeting phrases",
       items: [
         {
-          spanish: "Hola",
           english: "Hello",
-          example: "¡Hola! Me llamo Ana."
+          spanish: "Hola",
+          example: "Hello! My name is Ana."
         },
         {
-          spanish: "Buenos días",
           english: "Good morning",
-          example: "Buenos días, ¿cómo estás?"
+          spanish: "Buenos días",
+          example: "Good morning, how are you?"
         },
         {
-          spanish: "Buenas tardes",
           english: "Good afternoon",
-          example: "Buenas tardes, profesor."
+          spanish: "Buenas tardes",
+          example: "Good afternoon, professor."
         },
         {
-          spanish: "Buenas noches",
           english: "Good evening/night",
-          example: "Buenas noches, hasta mañana."
+          spanish: "Buenas noches",
+          example: "Good night, see you tomorrow."
         },
         {
-          spanish: "Adiós",
           english: "Goodbye",
-          example: "Adiós, nos vemos pronto."
+          spanish: "Adiós",
+          example: "Goodbye, see you soon."
         },
         {
-          spanish: "Hasta luego",
           english: "See you later",
-          example: "Hasta luego, amigo."
+          spanish: "Hasta luego",
+          example: "See you later, friend."
         }
       ]
     },
     {
       id: "introductions",
-      title: "Presentaciones",
-      description: "Cómo presentarse y preguntar nombres",
+      title: "Introductions",
+      description: "How to introduce yourself and ask names",
       items: [
         {
-          spanish: "Me llamo...",
           english: "My name is...",
-          example: "Me llamo Carlos."
+          spanish: "Me llamo...",
+          example: "My name is Carlos."
         },
         {
-          spanish: "¿Cómo te llamas?",
           english: "What is your name?",
-          example: "Hola, ¿cómo te llamas?"
+          spanish: "¿Cómo te llamas?",
+          example: "Hello, what is your name?"
         },
         {
-          spanish: "Mucho gusto",
           english: "Nice to meet you",
-          example: "Mucho gusto, soy María."
+          spanish: "Mucho gusto",
+          example: "Nice to meet you, I'm María."
         },
         {
-          spanish: "¿Cómo estás?",
           english: "How are you?",
-          example: "¡Hola! ¿Cómo estás hoy?"
+          spanish: "¿Cómo estás?",
+          example: "Hello! How are you today?"
         },
         {
-          spanish: "Estoy bien, gracias",
           english: "I'm fine, thank you",
-          example: "Estoy bien, gracias. ¿Y tú?"
+          spanish: "Estoy bien, gracias",
+          example: "I'm fine, thank you. And you?"
         },
         {
-          spanish: "¿De dónde eres?",
           english: "Where are you from?",
-          example: "¿De dónde eres? Yo soy de España."
+          spanish: "¿De dónde eres?",
+          example: "Where are you from? I'm from Spain."
         }
       ]
     },
     {
       id: "basic-nouns",
-      title: "Objetos Comunes",
-      description: "Nombres de objetos cotidianos",
+      title: "Common Objects",
+      description: "Names of everyday objects",
       items: [
         {
-          spanish: "el libro",
           english: "the book",
-          example: "Este es el libro de español."
+          spanish: "el libro",
+          example: "This is the Spanish book."
         },
         {
-          spanish: "la mesa",
           english: "the table",
-          example: "El vaso está en la mesa."
+          spanish: "la mesa",
+          example: "The glass is on the table."
         },
         {
-          spanish: "la silla",
           english: "the chair",
-          example: "Por favor, siéntate en la silla."
+          spanish: "la silla",
+          example: "Please, sit on the chair."
         },
         {
-          spanish: "el teléfono",
           english: "the phone",
-          example: "Mi teléfono es nuevo."
+          spanish: "el teléfono",
+          example: "My phone is new."
         },
         {
-          spanish: "la puerta",
           english: "the door",
-          example: "Cierra la puerta, por favor."
+          spanish: "la puerta",
+          example: "Close the door, please."
         },
         {
-          spanish: "la ventana",
           english: "the window",
-          example: "Abre la ventana, hace calor."
+          spanish: "la ventana",
+          example: "Open the window, it's hot."
         },
         {
-          spanish: "el reloj",
           english: "the clock/watch",
-          example: "¿Qué hora es en tu reloj?"
+          spanish: "el reloj",
+          example: "What time is it on your watch?"
         },
         {
-          spanish: "la casa",
           english: "the house",
-          example: "Mi casa es pequeña pero bonita."
+          spanish: "la casa",
+          example: "My house is small but nice."
         }
       ]
     },
     {
       id: "simple-phrases",
-      title: "Frases Útiles",
-      description: "Expresiones cotidianas",
+      title: "Useful Phrases",
+      description: "Everyday expressions",
       items: [
         {
-          spanish: "Por favor",
           english: "Please",
-          example: "Un vaso de agua, por favor."
+          spanish: "Por favor",
+          example: "A glass of water, please."
         },
         {
-          spanish: "Gracias",
           english: "Thank you",
-          example: "Gracias por tu ayuda."
+          spanish: "Gracias",
+          example: "Thank you for your help."
         },
         {
-          spanish: "De nada",
           english: "You're welcome",
-          example: "De nada, fue un placer."
+          spanish: "De nada",
+          example: "You're welcome, it was my pleasure."
         },
         {
-          spanish: "Sí",
           english: "Yes",
-          example: "Sí, me gusta el español."
+          spanish: "Sí",
+          example: "Yes, I like Spanish."
         },
         {
-          spanish: "No",
           english: "No",
-          example: "No, gracias."
+          spanish: "No",
+          example: "No, thank you."
         },
         {
-          spanish: "Disculpe",
           english: "Excuse me",
-          example: "Disculpe, ¿dónde está el baño?"
+          spanish: "Disculpe",
+          example: "Excuse me, where is the bathroom?"
         },
         {
-          spanish: "Lo siento",
           english: "I'm sorry",
-          example: "Lo siento, no entiendo."
+          spanish: "Lo siento",
+          example: "I'm sorry, I don't understand."
         },
         {
-          spanish: "¿Hablas inglés?",
           english: "Do you speak English?",
-          example: "Disculpe, ¿hablas inglés? No hablo mucho español."
+          spanish: "¿Hablas inglés?",
+          example: "Excuse me, do you speak English? I don't speak much Spanish."
         }
       ]
     }
@@ -195,36 +195,36 @@ export const basicOneLessonContent = {
   exercises: [
     {
       type: "matching",
-      title: "Relaciona las palabras",
-      description: "Une cada palabra en español con su traducción en inglés",
+      title: "Match the words",
+      description: "Match each Spanish word with its English translation",
       pairs: [
-        { spanish: "Hola", english: "Hello" },
-        { spanish: "Adiós", english: "Goodbye" },
-        { spanish: "Por favor", english: "Please" },
-        { spanish: "Gracias", english: "Thank you" },
-        { spanish: "Sí", english: "Yes" },
-        { spanish: "No", english: "No" }
+        { english: "Hello", spanish: "Hola" },
+        { english: "Goodbye", spanish: "Adiós" },
+        { english: "Please", spanish: "Por favor" },
+        { english: "Thank you", spanish: "Gracias" },
+        { english: "Yes", spanish: "Sí" },
+        { english: "No", spanish: "No" }
       ]
     },
     {
       type: "fillBlank",
-      title: "Completa la frase",
-      description: "Escribe la palabra correcta para completar cada frase",
+      title: "Complete the phrase",
+      description: "Write the correct word to complete each phrase",
       items: [
         {
-          sentence: "_____ días, ¿cómo estás?",
-          answer: "Buenos",
-          options: ["Buenos", "Buenas", "Bien", "Buen"]
+          sentence: "_____ days, how are you?",
+          answer: "Good",
+          options: ["Good", "Nice", "Well", "Fine"]
         },
         {
-          sentence: "Me _____ Juan.",
-          answer: "llamo",
-          options: ["llamo", "llamas", "llamar", "llamamos"]
+          sentence: "My _____ is Juan.",
+          answer: "name",
+          options: ["name", "calls", "called", "naming"]
         },
         {
-          sentence: "_____ por tu ayuda.",
-          answer: "Gracias",
-          options: ["Por favor", "Gracias", "De nada", "Lo siento"]
+          sentence: "_____ for your help.",
+          answer: "Thank you",
+          options: ["Please", "Thank you", "You're welcome", "I'm sorry"]
         }
       ]
     }
