@@ -1,6 +1,6 @@
 // PUBLIC_INTERFACE
 import React from 'react';
-import { getTranslation } from '../utils/translationUtils';
+import { getSpanishText } from '../utils/translationUtils';
 
 /**
  * CharacterMascot component for SpanioQuest's playful animated mascot
@@ -11,7 +11,7 @@ const CharacterMascot = ({ onClick }) => {
     <div 
       className="character-mascot" 
       onClick={onClick}
-      title={getTranslation("¡Hola! ¿Listo para aprender Español hoy?")}
+      title={getSpanishText("Hello! Ready to learn Spanish today?")}
     >
       🦉
     </div>
