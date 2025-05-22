@@ -38,7 +38,7 @@ function App() {
           <div className="streak-count">
             <span className="streak-icon">🔥</span>
             <span>
-              {userProgress.streak} <span className="translatable" data-translation={getTranslation("días")}>días</span>
+              {userProgress.streak} <TranslatableText text="días" useTooltip={false} />
             </span>
           </div>
           <button 
