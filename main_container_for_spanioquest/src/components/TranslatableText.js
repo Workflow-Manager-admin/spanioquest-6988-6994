@@ -1,13 +1,13 @@
 // PUBLIC_INTERFACE
 import React from 'react';
-import { getTranslation } from '../utils/translationUtils';
+import { getSpanishText } from '../utils/translationUtils';
 
 /**
- * TranslatableText component - A reusable component that shows the original Spanish text
- * and displays an English translation on hover using native HTML title attribute
+ * TranslatableText component - A reusable component that shows English text
+ * and displays a Spanish translation on hover using native HTML title attribute
  * 
  * @param {Object} props - Component properties
- * @param {string} props.text - The Spanish text to be displayed and translated
+ * @param {string} props.text - The English text to be displayed with Spanish translation on hover
  * @param {string} props.as - HTML element to render (default: 'span')
  * @param {Object} props.style - Additional styles for the component
  * @param {string} props.className - Additional CSS classes
@@ -19,7 +19,7 @@ const TranslatableText = ({
   className = '',
   ...props 
 }) => {
-  const translation = getTranslation(text);
+  const translation = getSpanishText(text);
   
   // If there's no translation available, just render the text normally
   if (!translation || translation === text) {
