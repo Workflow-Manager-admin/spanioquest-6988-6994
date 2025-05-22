@@ -1,6 +1,6 @@
 // PUBLIC_INTERFACE
 import React, { useState } from 'react';
-import { getTranslation } from '../utils/translationUtils';
+import { getSpanishText } from '../utils/translationUtils';
 import TranslatableText from './TranslatableText';
 
 /**
@@ -24,18 +24,18 @@ const CreateFamilyPrompt = () => {
         </div>
         <div className="family-prompt-content">
           <h3 className="family-prompt-title">
-            <TranslatableText text="¡Aprende mejor en grupo!" />
+            <TranslatableText text="Learn better in a group!" />
           </h3>
           <p className="family-prompt-description">
-            <TranslatableText text="Invita a tu familia o amigos para aprender juntos, competir en desafíos y subir en la clasificación." />
+            <TranslatableText text="Invite your family or friends to learn together, compete in challenges, and climb the leaderboard." />
           </p>
         </div>
         <button 
           className="btn btn-orange create-family-button"
-          title={getTranslation("Crea una Familia")}
+          title={getSpanishText("Create a Family")}
           onClick={handleCreateClick}
         >
-          Crea una Familia
+          Create a Family
         </button>
       </div>
       
@@ -44,15 +44,15 @@ const CreateFamilyPrompt = () => {
           <div className="family-benefits">
             <div className="benefit-item">
               <span className="benefit-icon">🏆</span>
-              <p><TranslatableText text="Compite en desafíos semanales" /></p>
+              <p><TranslatableText text="Compete in weekly challenges" /></p>
             </div>
             <div className="benefit-item">
               <span className="benefit-icon">👥</span>
-              <p><TranslatableText text="Aprende con tus seres queridos" /></p>
+              <p><TranslatableText text="Learn with your loved ones" /></p>
             </div>
             <div className="benefit-item">
               <span className="benefit-icon">📊</span>
-              <p><TranslatableText text="Sigue el progreso en grupo" /></p>
+              <p><TranslatableText text="Track progress as a group" /></p>
             </div>
           </div>
           
@@ -61,13 +61,13 @@ const CreateFamilyPrompt = () => {
             <input 
               type="text" 
               className="invite-input" 
-              placeholder={getTranslation("Correo electrónico para invitar")} 
+              placeholder={getSpanishText("Email to invite")} 
             />
             <button 
               className="btn btn-blue invite-button"
-              title={getTranslation("Enviar invitación")}
+              title={getSpanishText("Send invitation")}
             >
-              <TranslatableText text="Invitar" />
+              <TranslatableText text="Invite" />
             </button>
           </div>
         </div>
