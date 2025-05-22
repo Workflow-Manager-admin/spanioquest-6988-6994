@@ -37,7 +37,7 @@ function App() {
           <div className="streak-count">
             <span className="streak-icon">🔥</span>
             <span>
-              {userProgress.streak} <span className="translatable" data-translation={getTranslation("días")}>días</span>
+              {userProgress.streak} <TranslatableText text="días" />
             </span>
           </div>
           <button 
@@ -55,11 +55,8 @@ function App() {
         />
         
         <div className="progress-section" style={{ marginTop: '24px' }}>
-          <h2 
-            className="section-title"
-            title={getTranslation("Lecciones")}
-          >
-            Lecciones 🎓
+          <h2 className="section-title">
+            <TranslatableText text="Lecciones" /> 🎓
           </h2>
 =======
           
