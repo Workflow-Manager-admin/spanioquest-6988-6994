@@ -27,12 +27,26 @@ export const translations = {
   "días": "days",
   
   // Lesson titles
+  "Básico 1": "Basic 1",
   "Básicos 1": "Basics 1",
   "Básicos 2": "Basics 2",
   "Frases": "Phrases",
   "Comida": "Food",
   "Animales": "Animals",
   "Colores": "Colors",
+  
+  // Basic 1 section titles
+  "Saludos": "Greetings",
+  "Presentaciones": "Introductions",
+  "Objetos Comunes": "Common Objects",
+  "Frases Útiles": "Useful Phrases",
+  
+  // Basic 1 section descriptions
+  "Aprende saludos y frases básicas": "Learn greetings and basic phrases",
+  "Frases comunes para saludar": "Common greeting phrases",
+  "Cómo presentarse y preguntar nombres": "How to introduce yourself and ask names",
+  "Nombres de objetos cotidianos": "Names of everyday objects",
+  "Expresiones cotidianas": "Everyday expressions",
   
   // Lesson descriptions
   "Aprende palabras y frases sencillas": "Learn simple words and phrases",
