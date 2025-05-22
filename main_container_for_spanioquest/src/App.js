@@ -36,17 +36,17 @@ function App() {
           <div className="streak-count">
             <span className="streak-icon">🔥</span>
             <span>
-              {userProgress.streak} <TranslatableText text="días" useTooltip={false} />
+              {userProgress.streak} <span className="translatable" data-translation={getTranslation("días")}>días</span>
             </span>
           </div>
           <button 
             className="btn btn-blue"
-            data-tooltip-id="translation-tooltip" 
-            data-tooltip-content={getTranslation("Continuar")}
+            title={getTranslation("Continuar")}
           >
             Continuar
           </button>
         </div>
+=======
         
         <ProgressArea 
           progress={userProgress.xpToday} 
