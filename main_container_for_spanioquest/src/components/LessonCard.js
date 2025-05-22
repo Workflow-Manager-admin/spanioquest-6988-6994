@@ -14,22 +14,19 @@ const LessonCard = ({ title, description, icon, onClick }) => {
       </div>
       <h3 
         className="lesson-title"
-        data-tooltip-id="translation-tooltip" 
-        data-tooltip-content={getTranslation(title)}
+        title={getTranslation(title)}
       >
         {title}
       </h3>
       <p 
         className="lesson-description"
-        data-tooltip-id="translation-tooltip" 
-        data-tooltip-content={getTranslation(description)}
+        title={getTranslation(description)}
       >
         {description}
       </p>
       <button 
         className="btn"
-        data-tooltip-id="translation-tooltip" 
-        data-tooltip-content={getTranslation("¡Vamos!")}
+        title={getTranslation("¡Vamos!")}
       >
         ¡Vamos!
       </button>
