@@ -7,6 +7,7 @@ import ProgressArea from './components/ProgressArea';
 import LessonCard from './components/LessonCard';
 import Navigation from './components/Navigation';
 import CharacterMascot from './components/CharacterMascot';
+import TranslatableText from './components/TranslatableText';
 
 // Import mock data and translation utils
 import { userProgress, lessons } from './data/mockData';
