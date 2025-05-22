@@ -107,7 +107,10 @@ export const translations = {
   "Relaciona las palabras": "Match the words",
   "Completa la frase": "Complete the phrase",
   "Une cada palabra en español con su traducción en inglés": "Match each Spanish word with its English translation",
-  "Escribe la palabra correcta para completar cada frase": "Write the correct word to complete each phrase"
+  "Escribe la palabra correcta para completar cada frase": "Write the correct word to complete each phrase",
+  
+  // UI Elements for Lesson Items
+  "Mostrar traducción": "Show translation"
 };
 
 /**
