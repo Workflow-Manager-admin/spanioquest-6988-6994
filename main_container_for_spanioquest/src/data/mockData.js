@@ -2,6 +2,9 @@
  * Mock data for SpanioQuest app
  */
 
+// Import Basic 1 lesson data
+import basicOneLessonContent from './basicOneLessonData';
+
 // User progress data
 export const userProgress = {
   name: "Learner",
@@ -14,6 +17,15 @@ export const userProgress = {
 
 // Lesson data
 export const lessons = [
+  {
+    id: "basic-1",
+    title: "Básico 1",
+    description: "Aprende saludos y frases básicas",
+    icon: "👋",
+    completed: false,
+    xp: 20,
+    content: basicOneLessonContent // Reference to the detailed lesson content
+  },
   {
     id: "basics-1",
     title: "Básicos 1",
