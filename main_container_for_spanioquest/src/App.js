@@ -12,7 +12,6 @@ import TranslatableText from './components/TranslatableText';
 // Import mock data and translation utils
 import { userProgress, lessons } from './data/mockData';
 import { getTranslation } from './utils/translationUtils';
-=======
 
 function App() {
   const [activeTab, setActiveTab] = useState('learn');
@@ -47,7 +46,6 @@ function App() {
             Continuar
           </button>
         </div>
-=======
         
         <ProgressArea 
           progress={userProgress.xpToday} 
@@ -58,7 +56,6 @@ function App() {
           <h2 className="section-title">
             <TranslatableText text="Lecciones" /> 🎓
           </h2>
-=======
           
           <div className="lessons-grid">
             {lessons.map((lesson) => (
@@ -81,7 +78,6 @@ function App() {
       
       <CharacterMascot onClick={handleMascotClick} />
     </div>
-=======
   );
 }
 
