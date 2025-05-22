@@ -346,6 +346,130 @@ body {
   }
 }
 
+/* Create Family Section Styles */
+.create-family-container {
+  background-color: var(--spanio-white);
+  border-radius: var(--border-radius);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 24px;
+  border-left: 4px solid var(--spanio-orange);
+  overflow: hidden;
+}
+
+.create-family-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.family-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.family-icon {
+  font-size: 2.5rem;
+  margin-right: 10px;
+  animation: pulse 2s infinite;
+}
+
+.family-prompt-content {
+  flex: 1;
+}
+
+.family-prompt-title {
+  margin: 0 0 8px 0;
+  color: var(--spanio-purple);
+  font-size: 1.4rem;
+}
+
+.family-prompt-description {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.create-family-expanded {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px dashed #e0e0e0;
+}
+
+.family-benefits {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 30%;
+}
+
+.benefit-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.invite-section {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.invite-input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.invite-button {
+  padding: 12px 24px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive adjustments for family section */
+@media (max-width: 768px) {
+  .create-family-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .family-benefits {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .benefit-item {
+    margin-bottom: 16px;
+    max-width: 100%;
+  }
+  
+  .invite-section {
+    flex-direction: column;
+  }
+}
+
 /* Hover Translation Styles */
 .translatable {
   cursor: help;
