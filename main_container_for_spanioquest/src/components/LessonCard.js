@@ -1,6 +1,6 @@
 // PUBLIC_INTERFACE
 import React from 'react';
-import { getTranslation } from '../utils/translationUtils';
+import { getSpanishText } from '../utils/translationUtils';
 
 /**
  * LessonCard component for displaying an individual language lesson
@@ -14,21 +14,21 @@ const LessonCard = ({ title, description, icon, onClick }) => {
       </div>
       <h3 
         className="lesson-title"
-        title={getTranslation(title)}
+        title={getSpanishText(title)}
       >
         {title}
       </h3>
       <p 
         className="lesson-description"
-        title={getTranslation(description)}
+        title={getSpanishText(description)}
       >
         {description}
       </p>
       <button 
         className="btn"
-        title={getTranslation("¡Vamos!")}
+        title={getSpanishText("Let's go!")}
       >
-        ¡Vamos!
+        Let's go!
       </button>
     </div>
   );
