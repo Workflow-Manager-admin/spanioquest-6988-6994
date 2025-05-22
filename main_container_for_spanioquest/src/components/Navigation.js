@@ -1,8 +1,10 @@
 // PUBLIC_INTERFACE
 import React from 'react';
+import { getTranslation } from '../utils/translationUtils';
 
 /**
  * Navigation component for SpanioQuest's bottom navigation bar
+ * Now with hover-to-translate functionality
  */
 const Navigation = ({ activeTab = 'learn', onTabChange }) => {
   const tabs = [
@@ -21,7 +23,13 @@ const Navigation = ({ activeTab = 'learn', onTabChange }) => {
           onClick={() => onTabChange && onTabChange(tab.id)}
         >
           <span className="nav-icon">{tab.icon}</span>
-          <span className="nav-label">{tab.label}</span>
+          <span 
+            className="nav-label"
+            data-tooltip-id="translation-tooltip" 
+            data-tooltip-content={getTranslation(tab.label)}
+          >
+            {tab.label}
+          </span>
         </div>
       ))}
     </div>
