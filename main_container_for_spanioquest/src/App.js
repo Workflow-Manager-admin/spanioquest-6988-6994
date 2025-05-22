@@ -12,7 +12,7 @@ import CreateFamilyPrompt from './components/CreateFamilyPrompt';
 
 // Import mock data and translation utils
 import { userProgress, lessons } from './data/mockData';
-import { getTranslation } from './utils/translationUtils';
+import { getSpanishText } from './utils/translationUtils';
 
 function App() {
   const [activeTab, setActiveTab] = useState('learn');
@@ -23,9 +23,9 @@ function App() {
   };
   
   const handleMascotClick = () => {
-    const spanishMessage = '¡Hola! ¿Listo para aprender Español hoy?';
-    const englishMessage = getTranslation(spanishMessage);
-    alert(`${spanishMessage}\n\n(${englishMessage})`);
+    const englishMessage = 'Hello! Ready to learn Spanish today?';
+    const spanishMessage = getSpanishText(englishMessage);
+    alert(`${englishMessage}\n\n(${spanishMessage})`);
   };
 
   return (
@@ -37,14 +37,14 @@ function App() {
           <div className="streak-count">
             <span className="streak-icon">🔥</span>
             <span>
-              {userProgress.streak} <TranslatableText text="días" />
+              {userProgress.streak} <TranslatableText text="days" />
             </span>
           </div>
           <button 
             className="btn btn-blue"
-            title={getTranslation("Continuar")}
+            title={getSpanishText("Continue")}
           >
-            Continuar
+            Continue
           </button>
         </div>
         
@@ -57,7 +57,7 @@ function App() {
         
         <div className="progress-section" style={{ marginTop: '24px' }}>
           <h2 className="section-title">
-            <TranslatableText text="Lecciones" /> 🎓
+            <TranslatableText text="Lessons" /> 🎓
           </h2>
           
           <div className="lessons-grid">
