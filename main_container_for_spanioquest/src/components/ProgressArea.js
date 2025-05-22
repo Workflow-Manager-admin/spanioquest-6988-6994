@@ -13,8 +13,7 @@ const ProgressArea = ({ progress = 45, goal = 100 }) => {
     <div className="progress-section">
       <h2 
         className="section-title"
-        data-tooltip-id="translation-tooltip" 
-        data-tooltip-content={getTranslation("Tu Progreso")}
+        title={getTranslation("Tu Progreso")}
       >
         Tu Progreso 📚
       </h2>
@@ -30,7 +29,7 @@ const ProgressArea = ({ progress = 45, goal = 100 }) => {
         <div>
           <span 
             className="translatable" 
-            data-translation={getTranslation("XP ganados")}
+            title={getTranslation("XP ganados")}
           >
             XP ganados
           </span>: <strong>{progress}</strong>
@@ -38,7 +37,7 @@ const ProgressArea = ({ progress = 45, goal = 100 }) => {
         <div>
           <span 
             className="translatable" 
-            data-translation={getTranslation("Meta diaria")}
+            title={getTranslation("Meta diaria")}
           >
             Meta diaria
           </span>: <strong>{goal}</strong>
