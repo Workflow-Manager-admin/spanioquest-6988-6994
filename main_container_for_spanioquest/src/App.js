@@ -48,6 +48,8 @@ function App() {
           </button>
         </div>
         
+        <CreateFamilyPrompt />
+        
         <ProgressArea 
           progress={userProgress.xpToday} 
           goal={userProgress.dailyGoal} 
