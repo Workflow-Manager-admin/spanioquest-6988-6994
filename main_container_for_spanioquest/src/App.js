@@ -34,9 +34,17 @@ function App() {
         <div className="streak-bar">
           <div className="streak-count">
             <span className="streak-icon">🔥</span>
-            <span>{userProgress.streak} días</span>
+            <span>
+              {userProgress.streak} <span className="translatable" data-translation={getTranslation("días")}>días</span>
+            </span>
           </div>
-          <button className="btn btn-blue">Continuar</button>
+          <button 
+            className="btn btn-blue"
+            data-tooltip-id="translation-tooltip" 
+            data-tooltip-content={getTranslation("Continuar")}
+          >
+            Continuar
+          </button>
         </div>
         
         <ProgressArea 
@@ -45,7 +53,13 @@ function App() {
         />
         
         <div className="progress-section" style={{ marginTop: '24px' }}>
-          <h2 className="section-title">Lecciones 🎓</h2>
+          <h2 
+            className="section-title"
+            data-tooltip-id="translation-tooltip" 
+            data-tooltip-content={getTranslation("Lecciones")}
+          >
+            Lecciones 🎓
+          </h2>
           
           <div className="lessons-grid">
             {lessons.map((lesson) => (
