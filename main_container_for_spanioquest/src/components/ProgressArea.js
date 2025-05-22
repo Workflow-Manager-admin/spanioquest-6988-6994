@@ -1,6 +1,6 @@
 // PUBLIC_INTERFACE
 import React from 'react';
-import { getTranslation } from '../utils/translationUtils';
+import { getSpanishText } from '../utils/translationUtils';
 
 /**
  * ProgressArea component for displaying user's learning progress
@@ -13,9 +13,9 @@ const ProgressArea = ({ progress = 45, goal = 100 }) => {
     <div className="progress-section">
       <h2 
         className="section-title"
-        title={getTranslation("Tu Progreso")}
+        title={getSpanishText("Your Progress")}
       >
-        Tu Progreso 📚
+        Your Progress 📚
       </h2>
       
       <div className="progress-bar-container">
@@ -29,17 +29,17 @@ const ProgressArea = ({ progress = 45, goal = 100 }) => {
         <div>
           <span 
             className="translatable" 
-            title={getTranslation("XP ganados")}
+            title={getSpanishText("XP earned")}
           >
-            XP ganados
+            XP earned
           </span>: <strong>{progress}</strong>
         </div>
         <div>
           <span 
             className="translatable" 
-            title={getTranslation("Meta diaria")}
+            title={getSpanishText("Daily goal")}
           >
-            Meta diaria
+            Daily goal
           </span>: <strong>{goal}</strong>
         </div>
       </div>
