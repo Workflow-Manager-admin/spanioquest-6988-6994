@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
+import { Tooltip } from 'react-tooltip';
+import 'react-tooltip/dist/react-tooltip.css';
 
 // Import components
 import Header from './components/Header';
@@ -8,8 +10,9 @@ import LessonCard from './components/LessonCard';
 import Navigation from './components/Navigation';
 import CharacterMascot from './components/CharacterMascot';
 
-// Import mock data
+// Import mock data and translation utils
 import { userProgress, lessons } from './data/mockData';
+import { getTranslation } from './utils/translationUtils';
 
 function App() {
   const [activeTab, setActiveTab] = useState('learn');
