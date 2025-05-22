@@ -1,6 +1,6 @@
 // PUBLIC_INTERFACE
 import React from 'react';
-import { getTranslation } from '../utils/translationUtils';
+import { getSpanishText } from '../utils/translationUtils';
 
 /**
  * Navigation component for SpanioQuest's bottom navigation bar
@@ -8,10 +8,10 @@ import { getTranslation } from '../utils/translationUtils';
  */
 const Navigation = ({ activeTab = 'learn', onTabChange }) => {
   const tabs = [
-    { id: 'learn', label: 'Aprender', icon: '📚' },
-    { id: 'practice', label: 'Practicar', icon: '🎮' },
-    { id: 'achievements', label: 'Logros', icon: '🏆' },
-    { id: 'profile', label: 'Perfil', icon: '👤' }
+    { id: 'learn', label: 'Learn', icon: '📚' },
+    { id: 'practice', label: 'Practice', icon: '🎮' },
+    { id: 'achievements', label: 'Achievements', icon: '🏆' },
+    { id: 'profile', label: 'Profile', icon: '👤' }
   ];
   
   return (
@@ -25,7 +25,7 @@ const Navigation = ({ activeTab = 'learn', onTabChange }) => {
           <span className="nav-icon">{tab.icon}</span>
           <span 
             className="nav-label"
-            title={getTranslation(tab.label)}
+            title={getSpanishText(tab.label)}
           >
             {tab.label}
           </span>
