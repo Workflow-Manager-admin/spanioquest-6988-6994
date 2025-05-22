@@ -299,6 +299,19 @@ body {
   box-shadow: 0 2px 0 #0d8ecf;
 }
 
+.btn-orange {
+  background-color: var(--spanio-orange);
+  box-shadow: 0 4px 0 #cc7800;
+}
+
+.btn-orange:hover {
+  background-color: #ffb133;
+}
+
+.btn-orange:active {
+  box-shadow: 0 2px 0 #cc7800;
+}
+
 /* Character Mascot */
 .character-mascot {
   position: fixed;
